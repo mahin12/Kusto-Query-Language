@@ -13,7 +13,7 @@ Here's the breakdown:
 - `project`: Selects specified columns: `TimeGenerated`, `Account`, `Computer`, `LogonType`, `IpAddress`.
 
 
-``SecurityEvent
+```SecurityEvent
 | where EventID == 4624
 | where AccountType == "User" and LogonType == 2
-| project TimeGenerated, Account, Computer, LogonType, IpAddress``
+| project TimeGenerated, Account, Computer, LogonType, IpAddress
