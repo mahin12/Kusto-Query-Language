@@ -15,7 +15,7 @@ Here's the breakdown:
 
 
 
-# The query should generate results:
+## The query should generate results:
 
 ![Screenshot 2024-05-31 at 12 58 17 PM](https://github.com/mahin12/Kusto-Query-Language/assets/27288616/9f4065f2-348d-4617-8289-fcb495afa681)
 
